@@ -19,8 +19,7 @@ public class Main {
         Connection connection = (Connection) factory.getContext();
         GenericDao dao = factory.getDao(connection, R_State.class);
 
-        MySQLR_StateDAO mySQLR_stateDAO = new MySQLR_StateDAO(connection);
-        mySQLR_stateDAO.persist(new R_State());
+
 
 
 
